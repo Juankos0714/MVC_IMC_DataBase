@@ -65,7 +65,7 @@ public class ConexionBD {
     private void setValoresPorDefecto() {
         nombreBd = "MVC_IMC";
         usuario = "root";
-        password = "carlosmanuel";
+        password = "";
         url = "jdbc:mysql://localhost:3306/" + nombreBd + "?useUnicode=true&use"
                 + "JDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&"
                 + "serverTimezone=UTC";
